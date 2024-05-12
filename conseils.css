@@ -1,11 +1,4 @@
-.btn {
-    background-color: #ff6fd3;
-    color: white;
-  }
-  .btn:hover{
-    border: 2px solid #ff6fd3;
-    color: white;
-  }
+
   .bg-info {
     position: relative;
     cursor: pointer;

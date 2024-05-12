@@ -1,11 +1,11 @@
 
- /* .container {
+ .containerConatact {
     max-width: 800px;
     margin: 0 auto;
     background-color: #683695;
     border-radius: 10px;
     
-  } */
+  } 
   
   h1 {
     color: #333;
@@ -21,7 +21,7 @@
   }
   .text-green{
     color: #683695;
-}
+  }
 
 nav {
   background-color: #ff6fd3;
@@ -33,4 +33,15 @@ nav {
 }
 main {
   margin-top: 70px;
+}
+.divTexte{
+  margin-top: 90px !important;
+}
+.btn {
+  background-color: #ff6fd3;
+  color: white;
+}
+.btn:hover{
+  border: 2px solid #ff6fd3;
+  color: white;
 }
