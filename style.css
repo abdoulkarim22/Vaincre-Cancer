@@ -1,0 +1,36 @@
+
+ /* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #683695;
+    border-radius: 10px;
+    
+  } */
+  
+  h1 {
+    color: #333;
+  }
+  
+  .form-control {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+  }
+  
+  .form-label {
+    color: #333;
+  }
+  .text-green{
+    color: #683695;
+}
+
+nav {
+  background-color: #ff6fd3;
+}
+.hover:hover{
+ background-color: transparent !important;
+ color: black;
+ font-weight: bold;
+}
+main {
+  margin-top: 70px;
+}

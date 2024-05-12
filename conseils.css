@@ -1,0 +1,35 @@
+.btn {
+    background-color: #ff6fd3;
+    color: white;
+  }
+  .btn:hover{
+    border: 2px solid #ff6fd3;
+    color: white;
+  }
+  .bg-info {
+    position: relative;
+    cursor: pointer;
+    box-shadow: 
+    2px 2px 5px rgba(0, 0, 0, 0.1),
+    5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bg-info::after {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #007bff;
+    transition: all 0.3s ease;
+}
+.bg-info.open::after {
+    content: '-'; /* Contenu de l'icône lorsqu'elle est ouverte */
+}
+.divtextConseils{
+    background-color: #ff6fd3 !important;
+}
+.text-green{
+    color: #683695;
+}
