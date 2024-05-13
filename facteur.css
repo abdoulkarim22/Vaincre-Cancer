@@ -1,0 +1,34 @@
+.titleColor {
+    color: #683695;
+}
+.expositions {
+    color: #683695;
+}
+.borderColor{
+    border: solid 4px #738AC6;
+}
+.card-body{
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+.card-body img{
+    transition: all .4s ease;
+}
+.card-body img:hover{
+    transform: scale(1.3);
+    transition: all .4s ease;
+    position: relative;
+}
+.footere{
+    width: auto;
+    height: 2em;
+    margin: 0 auto;
+    background-color: #cac3be8b;
+    color: #683695;
+    position: relative;
+    margin-top: -32px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+}

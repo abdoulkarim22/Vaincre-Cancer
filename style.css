@@ -23,8 +23,8 @@
     color: #683695;
   }
 
-nav {
-  background-color: #ff6fd3;
+.nav {
+  background-color: #ff6fd3 !important;
 }
 .hover:hover{
  background-color: transparent !important;
@@ -35,7 +35,10 @@ main {
   margin-top: 70px;
 }
 .divTexte{
-  margin-top: 90px !important;
+  margin-top: 120px !important;
+}
+.divTexte2{
+  margin-top: 96px !important;
 }
 .btn {
   background-color: #ff6fd3;
@@ -44,4 +47,24 @@ main {
 .btn:hover{
   border: 2px solid #ff6fd3;
   color: white;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  
+}
+@media screen and (max-width:1024px){
+  iframe{
+      width: 440px !important;
+  }
+}
+.btnMap{
+  width: 200px;
+  background-color: #ff6fd3;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  
 }
